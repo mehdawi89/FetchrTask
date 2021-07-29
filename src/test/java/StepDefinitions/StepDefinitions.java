@@ -21,6 +21,7 @@ public class StepDefinitions extends Base {
 		OpenBrowser();
 		NavigateTo("ProdUrl");
 		System.out.println("asdasd");
+		System.out.println("test");
 	}
 
 	@Given("^i am on Fetchr track page$")
