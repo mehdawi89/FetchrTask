@@ -11,8 +11,8 @@ Feature: SignUp
     Examples: 
       | FirstName | LastName | Email                   | CompanyName | PhoneNumber | ConfirmMessage   |
       | Mohammad  | Auto     | moh.mehdawi89@gmail.com | Test Auto   |  0797265625 | Thank’s for your |
-  
-   @Regression
+
+  @Regression
   Scenario Outline: Signup for fetchr.us KSA
     Given i am on Fetchr Homepage
     When i click on GetStarted Button
@@ -37,7 +37,7 @@ Feature: SignUp
     Examples: 
       | FirstName | LastName | Email                   | CompanyName | PhoneNumber | ConfirmMessage   |
       | Mohammad  | Salah    | moh.mehdawi89@gmail.com | Test Auto   |  0797265625 | Thank’s for your |
-  
+
   @Regression
   Scenario Outline: Signup for fetchr.us OMAN
     Given i am on Fetchr Homepage
@@ -50,7 +50,7 @@ Feature: SignUp
     Examples: 
       | FirstName | LastName | Email                   | CompanyName | PhoneNumber | ConfirmMessage   |
       | Mohammad  | Salah    | moh.mehdawi89@gmail.com | Test Auto   |  0797265625 | Thank’s for your |
-  
+
   @Regression
   Scenario Outline: Field Validation Signup for fetchr.us
     Given i am on Fetchr Homepage
